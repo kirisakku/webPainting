@@ -1,0 +1,49 @@
+{
+  "name": "webpainting",
+  "version": "1.0.0",
+  "description": "Web版お絵かきソフト（のようななにか）",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "bundle": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirisakku/webPainting.git"
+  },
+  "keywords": [
+    "webPainting"
+  ],
+  "author": "kirisakku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirisakku/webPainting/issues"
+  },
+  "homepage": "https://github.com/kirisakku/webPainting#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "chai": "^4.1.2",
+    "karma": "^2.0.4",
+    "karma-chrome-launcher": "^2.2.0",
+    "mocha": "^5.2.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "eslint": "^5.3.0",
+    "sinon": "^6.1.5"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
